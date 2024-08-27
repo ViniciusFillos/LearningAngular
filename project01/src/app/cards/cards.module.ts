@@ -21,7 +21,8 @@ import { CardButtonCancelComponent } from '../card-button-cancel/card-button-can
   ],
   exports: [
     CardComponent,
-    CardRoxoComponent
+    CardRoxoComponent,
+    CardButtonComponent
   ]
 })
 export class CardsModule { }

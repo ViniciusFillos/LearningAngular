@@ -19,5 +19,8 @@
         font-weight: 600;
         font-size: 48px;
     }
+}
 
+::ng-deep app-card-button-cancel .card-button-cancel{
+    background-color: #ffff00 !important;
 }

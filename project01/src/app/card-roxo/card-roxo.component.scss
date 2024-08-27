@@ -20,3 +20,11 @@
         font-size: 48px;
     }
 }
+
+:host ::ng-deep #first .card-button-cancel {
+    background-color: darkmagenta !important;
+}
+
+:host ::ng-deep #second .card-button-cancel {
+    background-color: lightblue !important;
+}

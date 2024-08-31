@@ -2,6 +2,12 @@
     background-color: yellow !important;
 }
 
-// .mdc-slider__track--active_fill {
-//     border-color: yellow !important;
-// }
+
+#cardSlider .mdc-slider__track--active_fill {
+    border-color: yellow !important;
+}
+
+#cardSlider .mdc-slider__thumb-knob {
+    border-color: yellow !important;
+    background-color:yellow !important;
+}

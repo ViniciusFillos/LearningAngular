@@ -21,11 +21,15 @@
     }
 }
 
-:host ::ng-deep mat-slider .mdc-slider__track--active_fill {
+.mdc-slider__track--active_fill {
     border-color: yellow !important;
 }
 
-:host ::ng-deep mat-slider .mdc-slider__thumb-knob {
+.mdc-slider__thumb-knob {
     border-color: yellow !important;
     background-color:yellow !important;
+}
+
+.global {
+    background-color: skyblue;
 }

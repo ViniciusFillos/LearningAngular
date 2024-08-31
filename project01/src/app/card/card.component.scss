@@ -21,15 +21,11 @@
     }
 }
 
-.card-button-cancel {
-    background-color: red !important;
-}
-
-// #cardSlider .mdc-slider__track--active_fill {
+// :host ::ng-deep .mdc-slider__track--active_fill {
 //     border-color: yellow !important;
 // }
 
-// #cardSlider .mdc-slider__thumb-knob {
+// :host ::ng-deep .mdc-slider__thumb-knob {
 //     border-color: yellow !important;
 //     background-color:yellow !important;
 // }

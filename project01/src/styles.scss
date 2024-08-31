@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-// @import './styles/global-overrides';
+@import './styles/global-overrides';
 
 
-// .app-card-button-cancel {
-//     background-color: greenyellow !important;
-// }
+mat-slider[_ngcontent-ng-c1717317631] .mdc-slider__track--active_fill {
+    border-color: magenta !important;
+}
+
+mat-slider[_ngcontent-ng-c1717317631] .mdc-slider__thumb-knob {
+    border-color: magenta !important;
+}

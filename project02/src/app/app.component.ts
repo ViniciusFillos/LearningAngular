@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'project02';
+  inputText = "Texto inicial";
+  inputType = "text";
+  isDisabled = false;
+
+  enableInput() {
+    this.isDisabled = false;
+  }
+
+  disableInput() {
+    this.isDisabled = true;
+  }
+
+  setInputTypePassword() {
+    this.inputType = "password";
+  }
+
+  setInputTypeText() {
+    this.inputType = "text";
+  }
+
+  logInputText() {
+    console.log(this.inputText)
+  }
 }

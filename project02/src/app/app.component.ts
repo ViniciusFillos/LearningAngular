@@ -6,37 +6,11 @@ import { Component } from '@angular/core'
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  inputText = "Texto inicial"
-  inputType = "text"
-  isDisabled = false
+  buttonTitle: string = "Título do botão";
+  buttonDisabled: boolean = false;
 
-  enableInput() {
-    this.isDisabled = false
-  }
-
-  disableInput() {
-    this.isDisabled = true
-  }
-
-  setInputTypePassword() {
-    this.inputType = "password"
-  }
-
-  setInputTypeText() {
-    this.inputType = "text"
-  }
-
-  logInputText() {
-    console.log(this.inputText)
-  }
-
-  handleInputKeyup(event: KeyboardEvent) {
-    // const currentTarget = (event.target as HTMLInputElement).value
-    // console.log(currentTarget)
-  }
-
-  handleInputEvent(event: Event) {
-    const currentText = (event.target as HTMLInputElement).value
-    console.log(currentText)
+  onButtonClick() {
+    this.buttonTitle = 'New TITLE';
+    this.buttonDisabled = !this.buttonDisabled;
   }
 }
